@@ -79,6 +79,7 @@ p {
   background-color: #ffffff;
   color: currentColor;
   cursor: pointer;
+  transition-duration: 500ms;
 }
 
 /* .btn:hover {
