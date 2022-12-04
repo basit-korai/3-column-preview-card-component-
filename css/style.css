@@ -33,7 +33,7 @@ body {
   line-height: 2.5rem;
   padding: 4em 0em;
   font-family: var(--ff-lexend);
-  background-color: var(--clr-white);
+  background-color: var(--clr-lg);
 
   min-height: 100vh;
   display: grid;
@@ -81,10 +81,6 @@ p {
   cursor: pointer;
   transition-duration: 500ms;
 }
-
-/* .btn:hover {
-  color:hsl(0, 0%, 95%);
-} */
 
 .btn:hover {
   background: transparent;
