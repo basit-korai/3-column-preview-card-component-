@@ -78,6 +78,23 @@ p {
   border: none;
   background-color: #ffffff;
   color: currentColor;
+  cursor: pointer;
+}
+
+/* .btn:hover {
+  color:hsl(0, 0%, 95%);
+} */
+
+.btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid currentColor;
+  max-height: 46px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .card--orange {
